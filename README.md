@@ -1,5 +1,11 @@
 # esx_menupessoal
-**esx_menupessoal** é um **PersonalMenu** para FiveM desenvolvido em cima de [ESX](https://github.com/ESX-Brasil/es_extended) e [NativeUILua-Reloaded]
+**esx_menupessoal** é um **PersonalMenu** para FiveM desenvolvido em cima de [ESX-Brasil](https://github.com/ESX-Brasil/es_extended) e [NativeUILua-Reloaded]
+
+### Creditos
+
+[Korioz](https://github.com/Korioz) - Implementação do menu
+[nlmarcio](https://github.com/nlmarcio) - Desenvolvedor
+[ESX-Brasil](https://github.com/ESX-Brasil) - Tradução BR
 
 ### Importante
 - **Você não tem permissão para modificar o nome do resource**
@@ -23,7 +29,7 @@
 - IU de faturamento
 - IU do Admin
 - Sistema de voz incluído (com a correção do OneSync)
-- Toda a função de nb_menuperso retrabalhada (créditos para[nlmarcio](https://github.com/nlmarcio))
+- Toda a função de nb_menuperso retrabalhada (créditos para [nlmarcio](https://github.com/nlmarcio))
 - Cabeçalho Alterável (Só precisa mudar o arquivo commonmenu.ytd no OpenIV)
 - IU de EMOTE
 - Título colorido
