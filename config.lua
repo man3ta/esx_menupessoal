@@ -1,6 +1,4 @@
-Config = {}
-
-Keys = {
+local Keys = {
 	["ESC"] = 322, ["F1"] = 288, ["F2"] = 289, ["F3"] = 170, ["F5"] = 166, ["F6"] = 167, ["F7"] = 168, ["F8"] = 169, ["F9"] = 56, ["F10"] = 57,
 	["~"] = 243, ["1"] = 157, ["2"] = 158, ["3"] = 160, ["4"] = 164, ["5"] = 165, ["6"] = 159, ["7"] = 161, ["8"] = 162, ["9"] = 163, ["-"] = 84, ["="] = 83, ["BACKSPACE"] = 177,
 	["TAB"] = 37, ["Q"] = 44, ["W"] = 32, ["E"] = 38, ["R"] = 45, ["T"] = 245, ["Y"] = 246, ["U"] = 303, ["P"] = 199, ["["] = 39, ["]"] = 40, ["ENTER"] = 18,
@@ -12,48 +10,37 @@ Keys = {
 	["NENTER"] = 201, ["N4"] = 108, ["N5"] = 60, ["N6"] = 107, ["N+"] = 96, ["N-"] = 97, ["N7"] = 117, ["N8"] = 61, ["N9"] = 118
 }
 
--- GERAL
-Config.general = {
-	manettes = true
-}
--- GPS RÁPIDO
-Config.poleemploi = {x = -259.0, y = -974.6, z = 31.2}
-Config.comico = {x = 430.9, y = -980.2, z = 31.7}
-Config.hopital = {x = 1150.1, y = -1508.1, z = 34.692}
-Config.concessionnaire = {x = -44.3, y = -1109.7, z = 26.4}
+Config = {}
+Config.Locale = 'br' -- Traduções disponives BR - FR
 
--- Abra o menu pessoal
-Config.esx_menupessoal = {
-	clavier = Keys["F5"],
-	manette1 = Keys["SPACE"],
-	manette2 = Keys["TOP"]
+Config.servername = "ESX-Brasil" -- altere para o nome do seu servidor
+Config.doublejob = false -- habilitar se você estiver usando o trabalho duplo esx
+Config.noclip_speed = 1.0 -- mude para mudar a velocidade no noclip
+
+Config.EnableESXIdentity = false -- ative se você estiver usando 'jsfour-id card'
+
+-- GERAL
+Config.Menu = {
+	clavier = Keys["F5"], -- tecla de ativação do menu.
 }
--- Abra o menu do trabalho
-Config.menujob = {
-	clavier = Keys["F6"],
-	manette1 = Keys["SPACE"],
-	manette2 = Keys["DOWN"]
-}
--- TP no marcador
-Config.TPMarker = {
-	clavier1 = Keys["LEFTSHIFT"],
-	clavier2 = Keys["E"],
-	manette1 = Keys["LEFTSHIFT"],
-	manette2 = Keys["E"]
-}
--- Levante as mãos
+
 Config.handsUP = {
 	clavier = Keys["~"],
-	manette1 = Keys["RIGHT"],
-	manette2 = Keys["F2"]
 }
--- Apontar um dedo
+
 Config.pointing = {
 	clavier = Keys["B"],
-	manette = Keys["B"]
 }
--- S'acroupir
-Config.agachar-se = {
+
+Config.stopAnim = {
+	clavier = Keys["X"],
+}
+
+Config.crouch = {
 	clavier = Keys["LEFTCTRL"],
-	manette = Keys["LEFTCTRL"]
+}
+
+Config.TPMarker = {
+	clavier1 = Keys["LEFTALT"],
+	clavier2 = Keys["E"],
 }
