@@ -3,9 +3,9 @@
 
 ### Creditos
 
-[Korioz](https://github.com/Korioz) - Implementação do menu
-[nlmarcio](https://github.com/nlmarcio) - Desenvolvedor
-[ESX-Brasil](https://github.com/ESX-Brasil) - Tradução BR
+- [Korioz](https://github.com/Korioz) - Implementação do menu
+- [nlmarcio](https://github.com/nlmarcio) - Desenvolvedor
+- [ESX-Brasil](https://github.com/ESX-Brasil) - Tradução BR
 
 ### Importante
 - **Você não tem permissão para modificar o nome do resource**
